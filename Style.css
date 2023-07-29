@@ -1,0 +1,85 @@
+
+    body {
+      background-color: #121212;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .input-box {
+      text-align: center;
+      padding: 20px;
+      border: 2px solid #33a5ff;
+      border-radius: 20px;
+      box-shadow: 0 0 10px #33a5ff;
+    }
+
+    .name {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .input-tezt {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+
+    .input-tezt svg {
+      margin-right: 10px;
+      color: #33a5ff;
+      filter: drop-shadow(0 0 5px #33a5ff);
+    }
+
+    .input-tezt input {
+      background-color: transparent;
+      border: 2px solid #33a5ff;
+      border-radius: 10px;
+      color: #fff;
+      padding: 10px;
+      width: 200px;
+    }
+
+    .email {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+
+    .email i {
+      margin-right: 10px;
+      color: #33a5ff;
+      filter: drop-shadow(0 0 5px #33a5ff);
+    }
+
+    .email input {
+      background-color: transparent;
+      border: 2px solid #33a5ff;
+      border-radius: 10px;
+      color: #fff;
+      padding: 10px;
+      width: 200px;
+    }
+
+    .gender {
+      text-align: center;
+    }
+
+    .gender input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    #submit {
+      background-color: #33a5ff;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+ 
